@@ -1,6 +1,8 @@
-# CS6216-Project: How Well Do Self-Supervised GNNs Transfer to Knowledge Graphs?
+# How Well Do Self-Supervised GNNs Transfer to Knowledge Graphs?
 
 Ailin Deng, Yifan Zhang
+
+CS6216 Project
 
 National University of Singapore
 
@@ -19,21 +21,18 @@ Following
 
 ### TransE
 
-## Experiments
+## Experiment Results
 
-* [The Role of Data Augmentation](https://github.com/Shen-Lab/GraphCL/tree/master/semisupervised_TU#exploring-the-role-of-data-augmentation-in-graphcl)
+*  Effectiveness of Self-supervised Pre-training.
 
-* Semi-supervised learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL/tree/master/semisupervised_TU#graphcl-with-sampled-augmentations) [[MNIST and CIFAR10]](https://github.com/Shen-Lab/GraphCL/tree/master/semisupervised_MNIST_CIFAR10)
+*  Effect of Data Augmentations.
 
-* Unsupervised representation learning [[TU Datasets]](https://github.com/Shen-Lab/GraphCL/tree/master/unsupervised_TU) [[Cora and Citeseer]](https://github.com/Shen-Lab/GraphCL/tree/master/unsupervised_Cora_Citeseer)
+*  Compareness with Supervised Pre-training.
 
-* Transfer learning [[MoleculeNet and PPI]](https://github.com/Shen-Lab/GraphCL/tree/master/transferLearning_MoleculeNet_PPI)
-
-* Adversarial robustness [[Component Graphs]](https://github.com/Shen-Lab/GraphCL/tree/master/adversarialRobustness_Component)
 
 ## Citation
 
-If you use this code for you research, please cite our paper.
+If you would like to reference this report in you research, please cite our paper.
 
 ```
 @inproceedings{nus-cs6216-report,
