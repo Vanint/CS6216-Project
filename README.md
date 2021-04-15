@@ -11,11 +11,11 @@ National University of Singapore
 Graph representation learning has emerged as a powerful technique for real-world knowledge graph-based problems.  One of the arts on graph representation learning is using graph neural networks, which however require  a large number of labeled data for training and thus may be impractical for real-world applications. To handle this, contrastive self-supervised  learning leverages unlabeled graph data to train graph neural networks (GNNs) via contrastive learning and is attracting increasing attention. However, although there are several contrastive self-supervised  learning studies on the pre-training of GNNs, few have explored their applications to knowledge graph learning tasks. Therefore, in this repository, we empirically explore whether better self-supervised GNNs transfer better in Knowledge Graph-based tasks.
 
 ### Graph Contrastive Learning
-We use graph contrastive learning framework [The Role of Data Augmentation](https://github.com/Shen-Lab/GraphCL) as basic graph contrastive learning method for empirical studies.
+We use graph contrastive learning framework [GraphCL](https://github.com/Shen-Lab/GraphCL) as basic graph contrastive learning method for empirical studies.
 
 ![](./Framework.png) 
  
-Following 
+In GraphCL, there are four kinds of graph-level augmentation techniques: node dropping, edge perturbation, attribute masking, and subgraph.
 
 ![](./Augmentation.png)
 
