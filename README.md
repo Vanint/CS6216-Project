@@ -1,15 +1,20 @@
 # CS6216-Project: How Well Do Self-Supervised GNNs Transfer to Knowledge Graphs?
+
 Ailin Deng, Yifan Zhang
+
 National University of Singapore
 
 
 ## Overview
+Graph representation learning has emerged as a powerful technique for real-world knowledge graph-based problems.  One of the arts on graph representation learning is using graph neural networks, which however require  a large number of labeled data for training and thus may be impractical for real-world applications. To handle this, contrastive self-supervised  learning leverages unlabeled graph data to train graph neural networks (GNNs) via contrastive learning and is attracting increasing attention. However, although there are several contrastive self-supervised  learning studies on the pre-training of GNNs, few have explored their applications to knowledge graph learning tasks. Therefore, in this repository, we empirically explore whether better self-supervised GNNs transfer better in Knowledge Graph-based tasks.
+
 ### Graph Contrastive Learning
-In this repository, we develop contrastive learning with augmentations for GNN pre-training (GraphCL, Figure 1) to address the challenge of data heterogeneity in graphs.
-Systematic study is performed as shown in Figure 2, to assess the performance of contrasting different augmentations on various types of datasets.
+We use graph contrastive learning framework [The Role of Data Augmentation](https://github.com/Shen-Lab/GraphCL) as basic graph contrastive learning method for empirical studies.
 
 ![](./Framework.png) 
  
+Following 
+
 ![](./Augmentation.png)
 
 ### TransE
