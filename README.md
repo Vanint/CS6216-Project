@@ -15,7 +15,7 @@ Systematic study is performed as shown in Figure 2, to assess the performance of
  
 
 
-![](./data_augmentation.pdf)
+![](./Augmentation.png)
 
 ## Experiments
 
