@@ -30,6 +30,13 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 *  Compareness with Supervised Pre-training.
 
+## Main Findings
+
+*  Effectiveness of Self-supervised Pre-training.
+
+*  Effect of Data Augmentations.
+
+*  Compareness with Supervised Pre-training.
 
 ## Citation
 
