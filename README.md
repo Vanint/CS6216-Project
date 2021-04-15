@@ -1,21 +1,18 @@
 # CS6216-Project: How Well Do Self-Supervised GNNs Transfer to Knowledge Graphs?
+Ailin Deng, Yifan Zhang
+National University of Singapore
 
-PyTorch implementation for [Graph Contrastive Learning with Augmentations](https://arxiv.org/abs/2010.13902) [[poster]](https://yyou1996.github.io/files/neurips2020_graphcl_poster.pdf) [[appendix]](https://yyou1996.github.io/files/neurips2020_graphcl_supplement.pdf)
-
-Yuning You<sup>\*</sup>, Tianlong Chen<sup>\*</sup>, Yongduo Sui, Ting Chen, Zhangyang Wang, Yang Shen
-
-In NeurIPS 2020.
 
 ## Overview
-
+### Graph Contrastive Learning
 In this repository, we develop contrastive learning with augmentations for GNN pre-training (GraphCL, Figure 1) to address the challenge of data heterogeneity in graphs.
 Systematic study is performed as shown in Figure 2, to assess the performance of contrasting different augmentations on various types of datasets.
 
 ![](./Framework.png) 
  
-
-
 ![](./Augmentation.png)
+
+### TransE
 
 ## Experiments
 
