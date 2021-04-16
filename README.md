@@ -31,7 +31,7 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 *  Effect of Data Augmentations: Subgraph is particularly beneficial to the performance on down-stream knowledge graph tasks. Moreover, Node dropping, edge perturbation and node masking do not work for the transfer learning to knowledge graph tasks. Last, GraphCL with all four augmentations performs the best    for the transfer learning to knowledge graph tasks.
 
-![](./Table2.jpeg) 
+<img src="./Table2.jpeg" width = "800" height = "250" alt="" align=center /> 
 
 *  Compareness with Supervised Pre-training:  Supervised pre-training performs better than the self-supervised pre-training under our current experimental settings. Since self-supervised pre-training has shown better performance than supervised pre-training on visual tasks, graph self-supervised learning still requires further improvement.
  
