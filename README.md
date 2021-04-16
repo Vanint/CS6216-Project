@@ -23,7 +23,7 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 
 ## Experiment Results
-*  Dataset: we use a biology dataset for self-supervised pretraining, while we adopt FB15K237 knowledge graph database (a variant of FB15K) for the downstream link prediction.
+*  Dataset: we use the PPI graph dataset for self-supervised pretraining, while we adopt FB15K237 knowledge graph database (a variant of FB15K) for the downstream link prediction.
 
 *  Effectiveness of Self-supervised Pre-training: Contrastive self-supervised pre-training improves  the performance of GNNs on downstream knowledge graph tasks.
 
