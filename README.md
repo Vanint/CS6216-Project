@@ -27,7 +27,8 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 *  Effectiveness of Self-supervised Pre-training: Contrastive self-supervised pre-training improves  the performance of GNNs on downstream knowledge graph tasks.
 
-![](./Table1.png) 
+![hustlin_erd](https://github.com/Vanint/CS6216-Project/blob/main/Table1.pdf) 
+
 
 *  Effect of Data Augmentations: Subgraph is particularly beneficial to the performance on down-stream knowledge graph tasks. Moreover, Node dropping, edge perturbation and node masking do not work for the transfer learning to knowledge graph tasks. Last, GraphCL with all four augmentations performs the best    for the transfer learning to knowledge graph tasks.
 
