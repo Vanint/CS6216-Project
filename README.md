@@ -12,11 +12,11 @@ Graph representation learning has emerged as a powerful technique for real-world
 ### Graph Contrastive Learning for Pre-training
 We use graph contrastive learning framework [GraphCL](https://github.com/Shen-Lab/GraphCL) as basic graph contrastive learning method for empirical studies.
 
-<img src="./Framework.png" width = "800" height = "300" alt="" align=center /> 
+<img src="./Framework.jpeg" width = "800" height = "300" alt="" align=center /> 
  
 In GraphCL, there are four kinds of graph-level augmentation techniques: node dropping, edge perturbation, attribute masking, and subgraph.
 
-<img src="./Augmentation.png" width = "600" height = "120" alt="" align=center /> 
+<img src="./Augmentation.png" width = "700" height = "120" alt="" align=center /> 
 
 ### TransE for Transfer Leanring to Knowledge Graph Tasks
 After pre-training graph neural networks on a graph dataset, we then transfer the pre-trained model to solve a downstream link prediction task on knowledge graphs. For each entity, we use a graph neural network (initialized by the GraphCL pre-training parameters) to extract their features. For edge edge, we  randomly initialize their representations. To fine-tuning the GNN, we follow the idea of [TransE](https://proceedings.neurips.cc/paper/2013/file/1cecc7a77928ca8133fa24680a88d2f9-Paper.pdf) that the functional relation introduced by labeled edges represents a translation of their embeddings. To be specific, TransE helps learn lower values of the energy for training triplets than those for corrupted triplets.  
