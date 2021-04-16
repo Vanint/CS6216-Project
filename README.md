@@ -23,8 +23,9 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 
 ## Experiment Results
+*  Dataset: we use a biology dataset for self-supervised pretraining, while we adopt FB15K237 knowledge graph database (a variant of FB15K) for the downstream link prediction.
 
-*  Effectiveness of Self-supervised Pre-training.
+*  Effectiveness of Self-supervised Pre-training. 
 
 *  Effect of Data Augmentations.
 
@@ -32,11 +33,11 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 ## Main Findings
 
-*  Effectiveness of Self-supervised Pre-training.
+*  Self-supervised pre-training can benefit knowledge graphs under some augmentations.
 
-*  Effect of Data Augmentations.
+*  Different augmentations perform differently. Subgraph is particularly beneficial to the performance on down-stream knowledge graph tasks.
 
-*  Compareness with Supervised Pre-training.
+*  Supervised pre-training also enhances the performance of GNNs for knowledge graph tasks.
 
 ## Citation
 
