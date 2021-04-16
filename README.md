@@ -46,7 +46,7 @@ If you would like to reference this report in you research, please cite our pape
 ```
 @inproceedings{nus-cs6216-report,
  author = {Deng, Ailin and Zhang, Yifan},
- booktitle = {NUS CS6216},  
+ booktitle = {NUS CS6216: https://github.com/Vanint/CS6216-Project},  
  title = {How Well Do Self-Supervised GNNs Transfer to Knowledge Graphs?}, 
  year = {2021}
 }
