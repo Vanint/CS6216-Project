@@ -35,7 +35,7 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 *  Compareness with Supervised Pre-training:  Supervised pre-training performs better than the self-supervised pre-training under our current experimental settings. Since self-supervised pre-training has shown better performance than supervised pre-training on visual tasks, graph self-supervised learning still requires further improvement.
  
-<img src="./Table3.png" width = "600" height = "120" alt="" align=center />
+<img src="./Table3.jpeg" width = "600" height = "120" alt="" align=center />
 
 ## Main Findings
 
