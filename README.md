@@ -45,7 +45,7 @@ After pre-training graph neural networks on a graph dataset, we then transfer th
 
 *  Supervised pre-training also enhances the performance of GNNs for knowledge graph tasks.
 
-## Citation
+## Citation 
 
 If you would like to reference this report in you research, please cite our paper.
 
